@@ -1,0 +1,29 @@
+/*navigation*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 73px;
+    display: flex;
+}
+
+.branch li a {
+    color: #fed136; 
+    
+/*width: 79px;
+height: 28px;
+color: #fed136;
+color: #ffffff;
+font-family: "Wisdom - Script";
+font-size: 26px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 41px;
+text-align: left; 
+font-style: normal;
+letter-spacing: 1.3px;
+line-height: normal;*/      
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
