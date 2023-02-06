@@ -1,5 +1,24 @@
 /*navigation*/
 
+.home {
+    padding-left: 120px;
+    background-color: rgb(7, 17, 5);
+    
+    background-image: url('https://i.postimg.cc/5yHynv5z/pexels-oleksandr-tiupa-192136.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.home .container {
+    height: 100vh;
+}
+
+nav {
+    position: absolute;
+    
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -8,22 +27,166 @@ nav ul {
     display: flex;
 }
 
-.branch li a {
-    color: #fed136; 
+ul li a {
+    text-decoration: none;    
+}
+
+.branch li {
+    padding-left: 120px;
+}
+
+.logo  {   
+    width: 79px;
+    height: 28px;
+    color: #fed336;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: left;
+    letter-spacing: 1.3px;
+    line-height: normal;     
+}
+
+.nav-menu li a {
+    height: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;  
+}
+
+/*Header*/
+
+.splash-inner {
+    color: #ffffff;
+}
+
+/* Style for "Welcome To" */
+.splash-inner h3 {
+    padding: 200px 200px;
+    width: 430px;
+    height: 32px;
+    color: #ffffff;
+    font-family: "Droid Serif";
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -1px;
+    line-height: normal;
     
-/*width: 79px;
-height: 28px;
-color: #fed136;
-color: #ffffff;
-font-family: "Wisdom - Script";
-font-size: 26px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 41px;
-text-align: left; 
-font-style: normal;
-letter-spacing: 1.3px;
-line-height: normal;*/      
+    
+}
+
+/* Style for "It’s nice..." */
+.splash-inner h1 {
+    position: ;
+    width: 844px;
+    height: 55px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;      
+}
+
+/* Style for "Tell Me More" */
+.splash-inner button {
+    position:;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+/*footer*/
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+}
+.social-icons li.title
+{
+  margin-right: 15px;
+  text-transform: uppercase;
+  color:#96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color:#eceeef;
+  color:#818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color: #fff;
+  background-color: #29aafe
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
