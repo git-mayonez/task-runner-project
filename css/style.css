@@ -69,48 +69,45 @@ nav ul {
 }
 
 /* Style for "Welcome To" */
-.splash-inner h3 {
-    padding: 200px 200px;
-    width: 430px;
-    height: 32px;
-    color: #ffffff;
-    font-family: "Droid Serif";
-    font-size: 40px;
-    font-style: italic;
-    letter-spacing: -1px;
-    line-height: normal;
-    
-    
+.page-title {
+  padding: 250px 200px 50px 300px;
+  height: 32px;
+  color: #ffffff;
+  font-family: "Droid Serif";
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -1px;
+  line-height: normal; 
 }
 
 /* Style for "It’s nice..." */
-.splash-inner h1 {
-    width: 844px;
-    height: 55px;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 75px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    text-transform: uppercase;      
+.page-subtitle {
+  margin: 0px 100px 20px auto;
+  height: 55px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 75px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;      
 }
 
 /* Style for "Tell Me More" */
-.splash-inner button {
-
-    width: 240px;
-    height: 65px;
-    background-color: #fed136;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    align-items: center;
-    border-radius: 5px;
+button {
+  margin: 50px 200px 50px 350px;
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  align-items: center;
+  border-radius: 5px;
 }
 
 
