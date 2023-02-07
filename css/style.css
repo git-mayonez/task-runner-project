@@ -110,6 +110,48 @@ button {
   border-radius: 5px;
 }
 
+/*Section: Services*/
+
+.services .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.services .row, .portfolio .row {
+  column-gap: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.col-3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: xx-large;
+  white-space: nowrap;
+}
+
+/* Style for "Icon-Baske" */
+.services i {
+  margin-bottom: 10px;
+  padding-top: 20px;
+  font-size: xx-large;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fed136;
+  background-color: #ffffff;
+  color: #fed136;
+}
+
+/*Section: Portfolio*/
+
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+
 
 /*footer*/
 /*
