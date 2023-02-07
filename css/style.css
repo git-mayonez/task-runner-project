@@ -151,7 +151,19 @@ h2 {
   background-color: #f7f7f7;
 }
 
+/* Style for "Background" */
+.portfolio .row .pic {
+width: 291px;
+height: 393px;
+background-color: #ffffff; 
+}
 
+.portfolio .row .pic img {
+  margin-left: 0;
+  width: 291px;
+  height: 300px;
+  align-items: center;
+}
 
 /*footer*/
 /*
