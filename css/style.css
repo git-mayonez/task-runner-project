@@ -1,7 +1,9 @@
 /*navigation*/
+body {
+  min-width: 240px;
+}
 
 .home {
-    padding-left: 120px;
     background-image: url('https://i.postimg.cc/5yHynv5z/pexels-oleksandr-tiupa-192136.jpg');
     background-position: center center;
     background-size: cover;
@@ -13,7 +15,30 @@
 }
 
 nav {
-    position: absolute;  
+    position: relative;
+    padding-left: 100px;
+    padding-right: 300px;  
+}
+
+.logo {   
+  padding-top: 73px;
+  width: 50%;
+  height: 28px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 1.3px; 
+}
+
+.logo a {
+  color: #fed336;
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Wisdom-Script";
+}
+
+nav .menu {
+  width: 50%;
 }
 
 nav ul {
@@ -42,47 +67,30 @@ nav ul {
   line-height: normal;
 }
 
-.logo {   
-  padding-top: 73px;
-  width: 79px;
-  height: 28px;
-  
-  
-  font-size: 26px;
-  font-weight: 400;
-  line-height: 41px;
-  text-align: left;
-  letter-spacing: 1.3px; 
-}
 
-.logo a {
-  color: #fed336;
-  text-decoration: none;
-  font-style: italic;
-  font-family: "Wisdom-Script";
-}
 
 /*Header*/
 
 .splash-inner {
     color: #ffffff;
+    padding-top: 50px;
 }
 
 /* Style for "Welcome To" */
 .page-title {
-  padding: 250px 200px 50px 300px;
+  padding: 0 0 0 0;
   height: 32px;
   color: #ffffff;
   font-family: "Droid Serif";
   font-size: 40px;
   font-style: italic;
   letter-spacing: -1px;
-  line-height: normal; 
+  line-height: normal;
+  text-align: center; 
 }
 
 /* Style for "It’s nice..." */
 .page-subtitle {
-  margin: 0px 100px 20px auto;
   height: 55px;
   color: #ffffff;
   font-family: Montserrat;
@@ -97,7 +105,8 @@ nav ul {
 
 /* Style for "Tell Me More" */
 button {
-  margin: 50px 200px 50px 350px;
+  /*margin: 50px 200px 50px 350px;*/
+  margin: 100px auto;
   width: 240px;
   height: 65px;
   background-color: #fed136;
@@ -106,6 +115,8 @@ button {
   font-size: 18px;
   font-weight: 700;
   font-style: normal;
+  display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 5px;
 }
@@ -151,18 +162,20 @@ h2 {
 }
 
 .portfolio .row {
-  column-gap: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  
+}
+
+.portfolio .img-box {
+  background-color: #ffffff;
+  width: 250px;
+  height: 400px;
 }
 
 /* Style for "Background" */
-.portfolio .row .pic {
-  width: 250px;
-  height: 393px;
-  background-color: #ffffff; 
-}
+
 
 .portfolio img {
   width: 250px;
@@ -231,94 +244,37 @@ h2 {
   background-color: #737373;
 }
 
-
-
-
-
-
-
-
-
-/*
-.footer p a {
-  text-decoration: none;
-  color: #af9228;
+@media (max-width: 1000px) {
+  .menu {
+    width: 100%;
+  }
+  .logo {
+    justify-content: left;
+  }
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .nav-menu {
+    
+    display: block;  
+    text-align: right;
+  }
+  .page-subtitle {
+    font-size: 45px;
+  }
+  .page-title {
+    font-size: 30px;
+  }
 }
 
-.social-icons {
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style:none;
-} 
-
-.social-icons li {
-  display:inline-block;
-  margin-bottom:4px;
-}
-
-.social-icons a {
-
-}
-
-
-
-.social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color:#96a2b2;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.social-icons a {
-  background-color:#eceeef;
-  color:#818a91;
+@media (max-width: 480px) {
+  button {
+  margin: 100px auto;
+  width: 140px;
+  height: 55px;
   font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  -webkit-transition: all .2s linear;
-  -o-transition: all .2s linear;
-  transition: all .2s linear;
-}
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover
-{
-  color: #fff;
-  background-color: #29aafe
-}
-.social-icons.size-sm a {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px
-}
-.social-icons a.facebook:hover
-{
-  background-color:#3b5998
-}
-.social-icons a.twitter:hover
-{
-  background-color:#00aced
-}
-.social-icons a.linkedin:hover
-{
-  background-color:#007bb6
-}
-.social-icons a.dribbble:hover
-{
-  background-color:#ea4c89
-}
-@media (max-width:767px)
-{
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
+  font-weight: 600;
   }
 }
 
