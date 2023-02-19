@@ -165,17 +165,17 @@ h2 {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  
 }
 
 .portfolio .img-box {
   background-color: #ffffff;
+  /*width: 100%; wtedy jest równo ale img ma ramki z boku*/
   width: 250px;
   height: 400px;
+  margin: 0 auto;
 }
 
 /* Style for "Background" */
-
 
 .portfolio img {
   width: 250px;
@@ -231,12 +231,10 @@ h2 {
   color: #fff;
   position: absolute;
   top: 21px;
-  left: 21px;
-  transition: all $timing ease-out;  
+  left: 21px;  
 }
 
-.social-icons a {
-  
+.social-icons a { 
   width: 60px;
   height: 60px;
   border-radius: 100%;
